@@ -4,3 +4,10 @@ export function selectBook(book){
         payload: book
     };
 }
+
+export function fetchBooks(books){
+    return {
+        type: 'BOOK_FETCH',
+        payload: books
+    };
+}

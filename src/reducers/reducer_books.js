@@ -1,8 +1,7 @@
-export default function(){
-    return  [
-        {title: 'Javascript: The Good Parts', pages: 40},
-        {title: 'Harry Potter', pages: 400},
-        {title: 'The Dark Tower', pages: 90},
-        {title: 'Eloquent Ruby', pages: 50}
-    ]
+export default function(state=[], action){
+    switch(action.type){
+        case 'BOOK_FETCH':
+            return action.payload;
+    }
+    return state;
 }
