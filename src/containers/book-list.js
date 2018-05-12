@@ -35,3 +35,7 @@ function mapDispatchToProps(dispatch){
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(BookList);
+/*
+- registering component BookList as container
+- registering BookList container to listen to state property `books`
+*/
