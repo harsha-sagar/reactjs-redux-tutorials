@@ -25,3 +25,7 @@ function mapStateToProps(state){
 }
 
 export default connect(mapStateToProps)(BookList);
+/*
+- registering component BookList as container
+- registering BookList container to listen to state property `books`
+*/
