@@ -1,6 +1,3 @@
-### tech stack
-* es6, reactjs, redux
-
-### useful concepts -
-maintaining reactjs application using redux  
-different branches corresponds to play around with specific feature  
+### Summary: 
+Maintaining Reactjs application's state using Redux  
+Different branches corresponds to play around with different features of Redux
