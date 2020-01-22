@@ -1,3 +1,3 @@
-### Summary: 
-Maintaining Reactjs application's state using Redux  
-Different branches corresponds to play around with different features of Redux
+### Summary -  
+- Playing around concepts of Reactjs & Redux libraries.
+- Different branches corresponds to different concepts learnt & concerned examples.
